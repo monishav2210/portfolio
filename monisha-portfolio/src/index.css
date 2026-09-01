@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;600;700&display=swap');
+
+:root { font-family: 'Cormorant Garamond', serif; color: #2B1B14; background: #F8EFE4; font-synthesis: none; text-rendering: optimizeLegibility; --bg: #F8EFE4; --surface: #E8D2B8; --card: #FFF9F2; --gold: #C49A55; --bright-gold: #C49A55; --text: #2B1B14; --muted: #654331; --border: rgba(196, 154, 85, 0.35); --navy-primary: #2B1B14; --navy-light: #654331; }
+
+[data-theme="dark"] { --bg: #1C120D; --surface: #2B1B14; --gold: #C49A55; --bright-gold: #C49A55; --text: #F4EDE4; --muted: #D7C1A8; --border: rgba(196, 154, 85, 0.35); --navy-primary: #F4EDE4; --navy-light: #654331; }
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: var(--bg); color: var(--text); font-size: 18px; line-height: 1.7; transition: background-color 0.3s ease, color 0.3s ease; }
+a { color: inherit; text-decoration: none; }
+button, input, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { color: #2B2118; background: var(--gold); }
+:focus-visible { outline: 2px solid var(--navy-primary); outline-offset: 4px; }
